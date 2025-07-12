@@ -27,13 +27,6 @@ function toggleDarkMode() {
 }
 </script>
 
-function toggleDarkMode() {
-  isDark.value = !isDark.value
-  document.documentElement.classList.toggle('dark', isDark.value)
-  localStorage.setItem('theme', isDark.value ? 'dark' : 'light')
-}
-</script>
-
 <template>
   <header class="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50">
     <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
